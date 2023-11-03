@@ -1,0 +1,27 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "description": "Server for ToDo Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhiteMorro1177/todo-server.git"
+  },
+  "author": "_ALT__",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhiteMorro1177/todo-server/issues"
+  },
+  "homepage": "https://github.com/WhiteMorro1177/todo-server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.33.0",
+    "sqlite3": "^5.1.6"
+  }
+}
